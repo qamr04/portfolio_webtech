@@ -13,14 +13,56 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"
         defer></script>
+        <!-- dit is lijn css link -->
+        <link rel="stylesheet" href="css/styles.css">
+        <!-- dit is mijn reset linkje -->
+         <link rel="reset" href="css/reset.css">
 </head>
 
 <body>
-    <header></header>
-    <nav></nav>
-    <main></main>
+    <header class="sticky-top">
+        <nav class="navbar navbar-expand-md navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <figure><img src="assets/logo/logo.png" alt="logo" width="50"></figure>
+            </a>
+            <a class="links nav-link" href="index.html">Home</a>
+            <a class="links nav-link" href="portfolio.html">Portfolio</a>
+            <a class="links nav-link" href="contact.html">Contact</a>
+        </div>
+        </nav>
+    </header>
+    <main class="main">
+        <section class="naam text-center">
+            <p>Ayman Bouhallil <br> Student Systeem- en Netwerkbeheer</p>
+            <div class=" mb-3" style="max-width: 540px;">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="assets/zelfportret/zelfportret.jpg" class="hero img-fluid rounded-start" alt="...">
+                    </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">Over mij</h5>
+                        <p class="card-text">Ik ben een studentuit de richting Systeem- en Netwerkbeheer met een passie voor cybersecurity en programmeren. Ik werk graag met Linux, Cisco en Python, en bouw praktijkprojecten zoals een honeypot in AWS en een keylogger.
+                        Mijn doel is om door te groeien tot een veelzijdige IT-professional die techniek en beveiliging combineert.
+                        </p>
+                        
+                    </div>
+                    <a href="portfolio.html" class="btn btn-primary mt-3">Bekijk mijn werk</a>
+                </div>
+                </div>
+            </div>
+        </section>
+        
+    </main>
     <aside></aside>
-    <footer></footer>
-</body>
+    <footer class="d-flex justify-content-between align-items-center">
+        <p class="copyright">&copy; 2025 Ayman Bouhallil</p>
+        <p class="social-media">
+            <a class="links" href="https://www.linkedin.com/in/ayman-bouhallil-1199a9364/" target="_blank">LinkedIn</a>
+            <a class="links" href="https://github.com/qamr04" target="links">GitHub</a>
+        </p>
 
+    </footer>
+</body>
 </html>
