@@ -3,9 +3,33 @@ header{
 background-color: #1E2D4D;
 }
 .links{
-    margin-left: auto;
-    padding: 10px;
     color:#A44F74;
+}
+.main-portfolio{
+    background-image: url('../assets/sfeerbeelden/sfeerbeeld2.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 90vh; 
+}
+.main-index{
+    background-image: url('../assets/sfeerbeelden/sfeerbeeld1.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+
+}
+.main-contact{
+    background-image: url('../assets/sfeerbeelden/sfeerbeeld3.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: auto;
+    height: 90vh;
+}
+.main-portfolio{
+    height: 90vh;
+}
+.white{
+    color: white;
 }
 .dingus{
     justify-content: center;
